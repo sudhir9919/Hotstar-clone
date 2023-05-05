@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: #0c111b;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 17px;
+}
+
+nav > *{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+nav .nav-right{
+    gap: 15px;
+    font-size: 14px;
+}
+
+nav img{
+    height: 100%;   
+}
+
+#kids{
+    font-family: 'Comic Neue', cursive;
+    color: #ffaa05;  
+    font-weight: 900;
+}
+
+.nav-right input{
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.773);
+    padding: 8px 2px;
+    width: 250px;
+    font-size: 16px;
+}
+
+.nav-right input::placeholder{
+    color: rgba(255, 255, 255, 0.773);
+    font-size: 16px;
+}
+
+.nav-right input:focus{
+    width: 300px;
+    border-bottom: 1px solid #1f80e0;
+}
+
+.nav-right #subscribe{
+    background-color: #1f80e0;
+    padding: 7px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#login{
+    background-color: transparent;
+}
+
+.nav-right button{
+    cursor: pointer;
+    border: 0;
+    font-weight: 600;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 94%;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.foot-head{
+    margin-bottom: 30px;
+}
+.foot-content{
+    color: #7E98B2;
+}
